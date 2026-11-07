@@ -70,9 +70,9 @@ digraph "/home/runner/work/kaldi-decoder/kaldi-decoder/kaldi-decoder/csrc/decode
   Node25 [id="Node000025",label="kaldifst/csrc/lattice\l-weight.h",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
   Node1 -> Node26 [id="edge40_Node000001_Node000026",color="steelblue1",style="solid",tooltip=" "];
   Node26 [id="Node000026",label="kaldi-decoder/csrc\l/lattice-simple-decoder.h",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$lattice-simple-decoder_8h.html",tooltip="Lattice-generating Viterbi decoder (kaldi's LatticeSimpleDecoder)."];
-  Node26 -> Node2 [id="edge41_Node000026_Node000002",color="steelblue1",style="solid",tooltip=" "];
-  Node26 -> Node14 [id="edge42_Node000026_Node000014",color="steelblue1",style="solid",tooltip=" "];
-  Node26 -> Node13 [id="edge43_Node000026_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node26 -> Node13 [id="edge41_Node000026_Node000013",color="steelblue1",style="solid",tooltip=" "];
+  Node26 -> Node2 [id="edge42_Node000026_Node000002",color="steelblue1",style="solid",tooltip=" "];
+  Node26 -> Node14 [id="edge43_Node000026_Node000014",color="steelblue1",style="solid",tooltip=" "];
   Node26 -> Node3 [id="edge44_Node000026_Node000003",color="steelblue1",style="solid",tooltip=" "];
   Node26 -> Node4 [id="edge45_Node000026_Node000004",color="steelblue1",style="solid",tooltip=" "];
   Node26 -> Node5 [id="edge46_Node000026_Node000005",color="steelblue1",style="solid",tooltip=" "];

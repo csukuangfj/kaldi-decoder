@@ -197,16 +197,16 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a9dcdf43fac47d182b5ff69f97d126c7c" id="r_a9dcdf43fac47d182b5ff69f97d126c7c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dcdf43fac47d182b5ff69f97d126c7c">cost_offsets_</a></td></tr>
 <tr class="memitem:a9ddba95b2300def0cad58cef047c6354" id="r_a9ddba95b2300def0cad58cef047c6354"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structkaldi__decoder_1_1LatticeFasterDecoderConfig.html">LatticeFasterDecoderConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9ddba95b2300def0cad58cef047c6354">config_</a></td></tr>
 <tr class="memdesc:a9ddba95b2300def0cad58cef047c6354"><td class="mdescLeft">&#160;</td><td class="mdescRight">The configuration (beams and limits).  <br /></td></tr>
-<tr class="memitem:a18fbec50624637c66da1f617550765c3" id="r_a18fbec50624637c66da1f617550765c3"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18fbec50624637c66da1f617550765c3">num_toks_</a></td></tr>
+<tr class="memitem:a18fbec50624637c66da1f617550765c3" id="r_a18fbec50624637c66da1f617550765c3"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18fbec50624637c66da1f617550765c3">num_toks_</a> = 0</td></tr>
 <tr class="memdesc:a18fbec50624637c66da1f617550765c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of tokens currently allocated (for hash sizing).  <br /></td></tr>
-<tr class="memitem:a9e52f2277b604313441129ee73dcd2cc" id="r_a9e52f2277b604313441129ee73dcd2cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e52f2277b604313441129ee73dcd2cc">warned_</a></td></tr>
+<tr class="memitem:a9e52f2277b604313441129ee73dcd2cc" id="r_a9e52f2277b604313441129ee73dcd2cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e52f2277b604313441129ee73dcd2cc">warned_</a> = false</td></tr>
 <tr class="memdesc:a9e52f2277b604313441129ee73dcd2cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Latch so the "no tokens alive" warning prints once per utterance.  <br /></td></tr>
-<tr class="memitem:ab439707f0d7947f86244e0a92808bf75" id="r_ab439707f0d7947f86244e0a92808bf75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab439707f0d7947f86244e0a92808bf75">decoding_finalized_</a></td></tr>
+<tr class="memitem:ab439707f0d7947f86244e0a92808bf75" id="r_ab439707f0d7947f86244e0a92808bf75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab439707f0d7947f86244e0a92808bf75">decoding_finalized_</a> = false</td></tr>
 <tr class="memdesc:ab439707f0d7947f86244e0a92808bf75"><td class="mdescLeft">&#160;</td><td class="mdescRight">decoding_finalized_ is true if someone called <a class="el" href="#a32209b2c0a36e0660b599aa43b57e147" title="This function may be optionally called after AdvanceDecoding(), when you do not plan to decode any fu...">FinalizeDecoding()</a>.  <br /></td></tr>
 <tr class="memitem:a4dcebca8c0d21c116c55c37b0e0c88c1" id="r_a4dcebca8c0d21c116c55c37b0e0c88c1"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; Token *, float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dcebca8c0d21c116c55c37b0e0c88c1">final_costs_</a></td></tr>
 <tr class="memdesc:a4dcebca8c0d21c116c55c37b0e0c88c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">For the meaning of the next 3 variables, see the comment for decoding_finalized_ above., and <a class="el" href="#af40da654c00af84b8cb928633f90be00">ComputeFinalCosts()</a>.  <br /></td></tr>
-<tr class="memitem:ae79e304c72bd85257f48ba30cff85455" id="r_ae79e304c72bd85257f48ba30cff85455"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae79e304c72bd85257f48ba30cff85455">final_relative_cost_</a></td></tr>
-<tr class="memitem:ae867c61879dde99348fc7b304f49f567" id="r_ae867c61879dde99348fc7b304f49f567"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae867c61879dde99348fc7b304f49f567">final_best_cost_</a></td></tr>
+<tr class="memitem:ae79e304c72bd85257f48ba30cff85455" id="r_ae79e304c72bd85257f48ba30cff85455"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae79e304c72bd85257f48ba30cff85455">final_relative_cost_</a> = 0.0f</td></tr>
+<tr class="memitem:ae867c61879dde99348fc7b304f49f567" id="r_ae867c61879dde99348fc7b304f49f567"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae867c61879dde99348fc7b304f49f567">final_best_cost_</a> = 0.0f</td></tr>
 <tr class="memitem:a6763bc0610d696ab944e7207a086cce8" id="r_a6763bc0610d696ab944e7207a086cce8"><td class="memItemLeft" align="right" valign="top">fst::MemoryPool&lt; Token &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6763bc0610d696ab944e7207a086cce8">token_pool_</a></td></tr>
 <tr class="memitem:a5f8da98157daa5ba21339e943d61e1be" id="r_a5f8da98157daa5ba21339e943d61e1be"><td class="memItemLeft" align="right" valign="top">fst::MemoryPool&lt; <a class="el" href="#af866d9e3cda004daf9b059ce6093d2c2">ForwardLinkT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f8da98157daa5ba21339e943d61e1be">forward_link_pool_</a></td></tr>
 </table>
@@ -1326,7 +1326,7 @@ template&lt;typename FST, typename Token = decoder::StdToken&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classkaldi__decoder_1_1LatticeFasterDecoderTpl.html">kaldi_decoder::LatticeFasterDecoderTpl</a>&lt; FST, Token &gt;::decoding_finalized_</td>
+          <td class="memname">bool <a class="el" href="classkaldi__decoder_1_1LatticeFasterDecoderTpl.html">kaldi_decoder::LatticeFasterDecoderTpl</a>&lt; FST, Token &gt;::decoding_finalized_ = false</td>
         </tr>
       </table>
   </td>
@@ -1379,7 +1379,7 @@ template&lt;typename FST, typename Token = decoder::StdToken&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float <a class="el" href="classkaldi__decoder_1_1LatticeFasterDecoderTpl.html">kaldi_decoder::LatticeFasterDecoderTpl</a>&lt; FST, Token &gt;::final_best_cost_</td>
+          <td class="memname">float <a class="el" href="classkaldi__decoder_1_1LatticeFasterDecoderTpl.html">kaldi_decoder::LatticeFasterDecoderTpl</a>&lt; FST, Token &gt;::final_best_cost_ = 0.0f</td>
         </tr>
       </table>
   </td>
@@ -1429,7 +1429,7 @@ template&lt;typename FST, typename Token = decoder::StdToken&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float <a class="el" href="classkaldi__decoder_1_1LatticeFasterDecoderTpl.html">kaldi_decoder::LatticeFasterDecoderTpl</a>&lt; FST, Token &gt;::final_relative_cost_</td>
+          <td class="memname">float <a class="el" href="classkaldi__decoder_1_1LatticeFasterDecoderTpl.html">kaldi_decoder::LatticeFasterDecoderTpl</a>&lt; FST, Token &gt;::final_relative_cost_ = 0.0f</td>
         </tr>
       </table>
   </td>
@@ -1503,7 +1503,7 @@ template&lt;typename FST, typename Token = decoder::StdToken&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int32_t <a class="el" href="classkaldi__decoder_1_1LatticeFasterDecoderTpl.html">kaldi_decoder::LatticeFasterDecoderTpl</a>&lt; FST, Token &gt;::num_toks_</td>
+          <td class="memname">int32_t <a class="el" href="classkaldi__decoder_1_1LatticeFasterDecoderTpl.html">kaldi_decoder::LatticeFasterDecoderTpl</a>&lt; FST, Token &gt;::num_toks_ = 0</td>
         </tr>
       </table>
   </td>
@@ -1627,7 +1627,7 @@ template&lt;typename FST, typename Token = decoder::StdToken&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classkaldi__decoder_1_1LatticeFasterDecoderTpl.html">kaldi_decoder::LatticeFasterDecoderTpl</a>&lt; FST, Token &gt;::warned_</td>
+          <td class="memname">bool <a class="el" href="classkaldi__decoder_1_1LatticeFasterDecoderTpl.html">kaldi_decoder::LatticeFasterDecoderTpl</a>&lt; FST, Token &gt;::warned_ = false</td>
         </tr>
       </table>
   </td>

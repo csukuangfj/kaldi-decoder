@@ -171,11 +171,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ab76a3fda676cf141c64b0e3759e6eb20" id="r_ab76a3fda676cf141c64b0e3759e6eb20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab76a3fda676cf141c64b0e3759e6eb20">ModifyGraphForCarefulAlignment</a> (fst::VectorFst&lt; fst::StdArc &gt; *fst)</td></tr>
 <tr class="memdesc:ab76a3fda676cf141c64b0e3759e6eb20"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function modifies the decoding graph for what we call "careful
 alignment".  <br /></td></tr>
-<tr class="memitem:af3844aeca0af66d24008c5fb3e91b78c" id="r_af3844aeca0af66d24008c5fb3e91b78c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3844aeca0af66d24008c5fb3e91b78c">DecodeUtteranceLatticeSimple</a> (<a class="el" href="classkaldi__decoder_1_1LatticeSimpleDecoder.html">LatticeSimpleDecoder</a> &amp;<a class="el" href="namespacekaldi__decoder_1_1decoder.html">decoder</a>, <a class="el" href="classkaldi__decoder_1_1DecodableInterface.html">DecodableInterface</a> &amp;decodable, const <a class="el" href="classkaldi__decoder_1_1TransitionInformation.html">TransitionInformation</a> &amp;trans_model, const std::string &amp;utt, bool allow_partial, float acoustic_scale, std::vector&lt; int32_t &gt; *alignments, std::vector&lt; int32_t &gt; *words, double *like_ptr, fst::Lattice *lat_out=NULL)</td></tr>
-<tr class="memdesc:af3844aeca0af66d24008c5fb3e91b78c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode one utterance with <a class="el" href="classkaldi__decoder_1_1LatticeSimpleDecoder.html" title="Simplest possible decoder, included largely for didactic purposes and as a means to debug more highly...">LatticeSimpleDecoder</a>.  <br /></td></tr>
-<tr class="memitem:afc5080997ac07558d175e052e6a7e843" id="r_afc5080997ac07558d175e052e6a7e843"><td class="memTemplParams" colspan="2">template&lt;typename FST&gt; </td></tr>
-<tr class="memitem:afc5080997ac07558d175e052e6a7e843 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc5080997ac07558d175e052e6a7e843">DecodeUtteranceLatticeFaster</a> (<a class="el" href="classkaldi__decoder_1_1LatticeFasterDecoderTpl.html">LatticeFasterDecoderTpl</a>&lt; FST &gt; &amp;<a class="el" href="namespacekaldi__decoder_1_1decoder.html">decoder</a>, <a class="el" href="classkaldi__decoder_1_1DecodableInterface.html">DecodableInterface</a> &amp;decodable, const <a class="el" href="classkaldi__decoder_1_1TransitionInformation.html">TransitionInformation</a> &amp;trans_model, const std::string &amp;utt, bool allow_partial, float acoustic_scale, std::vector&lt; int32_t &gt; *alignments, std::vector&lt; int32_t &gt; *words, double *like_ptr, fst::Lattice *lat_out=NULL)</td></tr>
-<tr class="memdesc:afc5080997ac07558d175e052e6a7e843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode one utterance with <a class="el" href="classkaldi__decoder_1_1LatticeFasterDecoderTpl.html" title="This is the &quot;normal&quot; lattice-generating decoder.">LatticeFasterDecoderTpl</a>.  <br /></td></tr>
+<tr class="memitem:a614206b8fe407e64ee471243a9476f69" id="r_a614206b8fe407e64ee471243a9476f69"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a614206b8fe407e64ee471243a9476f69">DecodeUtteranceLatticeSimple</a> (<a class="el" href="classkaldi__decoder_1_1LatticeSimpleDecoder.html">LatticeSimpleDecoder</a> &amp;<a class="el" href="namespacekaldi__decoder_1_1decoder.html">decoder</a>, <a class="el" href="classkaldi__decoder_1_1DecodableInterface.html">DecodableInterface</a> &amp;decodable, const <a class="el" href="classkaldi__decoder_1_1TransitionInformation.html">TransitionInformation</a> &amp;trans_model, const std::string &amp;utt, bool allow_partial, float acoustic_scale, std::vector&lt; int32_t &gt; *alignments, std::vector&lt; int32_t &gt; *words, double *like_ptr, fst::Lattice *lat_out=nullptr)</td></tr>
+<tr class="memdesc:a614206b8fe407e64ee471243a9476f69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode one utterance with <a class="el" href="classkaldi__decoder_1_1LatticeSimpleDecoder.html" title="Simplest possible decoder, included largely for didactic purposes and as a means to debug more highly...">LatticeSimpleDecoder</a>.  <br /></td></tr>
+<tr class="memitem:aa6d9bd84e7447b0624190e55fef197a2" id="r_aa6d9bd84e7447b0624190e55fef197a2"><td class="memTemplParams" colspan="2">template&lt;typename FST&gt; </td></tr>
+<tr class="memitem:aa6d9bd84e7447b0624190e55fef197a2 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6d9bd84e7447b0624190e55fef197a2">DecodeUtteranceLatticeFaster</a> (<a class="el" href="classkaldi__decoder_1_1LatticeFasterDecoderTpl.html">LatticeFasterDecoderTpl</a>&lt; FST &gt; &amp;<a class="el" href="namespacekaldi__decoder_1_1decoder.html">decoder</a>, <a class="el" href="classkaldi__decoder_1_1DecodableInterface.html">DecodableInterface</a> &amp;decodable, const <a class="el" href="classkaldi__decoder_1_1TransitionInformation.html">TransitionInformation</a> &amp;trans_model, const std::string &amp;utt, bool allow_partial, float acoustic_scale, std::vector&lt; int32_t &gt; *alignments, std::vector&lt; int32_t &gt; *words, double *like_ptr, fst::Lattice *lat_out=nullptr)</td></tr>
+<tr class="memdesc:aa6d9bd84e7447b0624190e55fef197a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decode one utterance with <a class="el" href="classkaldi__decoder_1_1LatticeFasterDecoderTpl.html" title="This is the &quot;normal&quot; lattice-generating decoder.">LatticeFasterDecoderTpl</a>.  <br /></td></tr>
 <tr class="memitem:aaef55961903aecc3bd5a5961e0ab18d5" id="r_aaef55961903aecc3bd5a5961e0ab18d5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaef55961903aecc3bd5a5961e0ab18d5">LatticeBestPath</a> (const fst::Lattice &amp;lat, float lm_scale, float acoustic_scale, std::vector&lt; int32_t &gt; *alignments, std::vector&lt; int32_t &gt; *words, double *like_ptr)</td></tr>
 <tr class="memdesc:aaef55961903aecc3bd5a5961e0ab18d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">1-best of a lattice under lm/acoustic scaling.  <br /></td></tr>
 <tr class="memitem:a646c1b5b0f05870a61c2fe43ea16e4d5" id="r_a646c1b5b0f05870a61c2fe43ea16e4d5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a646c1b5b0f05870a61c2fe43ea16e4d5">LogSumExp</a> (const <a class="el" href="#a61d491e85fa492207ca19a7b2d7a58b5">FloatVector</a> &amp;v)</td></tr>
@@ -198,10 +198,10 @@ alignment".  <br /></td></tr>
 <tr class="memitem:a745c3db7f7d4e36217d42cfd0b075d35 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a745c3db7f7d4e36217d42cfd0b075d35">ReadIntegerVector</a> (std::istream &amp;is, bool binary, std::vector&lt; T &gt; *v)</td></tr>
 <tr class="memitem:a4f3b586a7cafdac625fdfccdd88056f5" id="r_a4f3b586a7cafdac625fdfccdd88056f5"><td class="memTemplParams" colspan="2">template&lt;class A&gt; </td></tr>
 <tr class="memitem:a4f3b586a7cafdac625fdfccdd88056f5 template"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f3b586a7cafdac625fdfccdd88056f5">DeletePointers</a> (std::vector&lt; A * &gt; *v)</td></tr>
-<tr class="memdesc:a4f3b586a7cafdac625fdfccdd88056f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes any non-NULL pointers in the vector v, and sets the corresponding entries of v to NULL.  <br /></td></tr>
+<tr class="memdesc:a4f3b586a7cafdac625fdfccdd88056f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes any non-nullptr pointers in the vector v, and sets the corresponding entries of v to nullptr.  <br /></td></tr>
 <tr class="memitem:a5596bbaa052751db2c39dd48dc2718c5" id="r_a5596bbaa052751db2c39dd48dc2718c5"><td class="memTemplParams" colspan="2">template&lt;class A&gt; </td></tr>
 <tr class="memitem:a5596bbaa052751db2c39dd48dc2718c5 template"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5596bbaa052751db2c39dd48dc2718c5">ContainsNullPointers</a> (const std::vector&lt; A * &gt; &amp;v)</td></tr>
-<tr class="memdesc:a5596bbaa052751db2c39dd48dc2718c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the vector of pointers contains NULL pointers.  <br /></td></tr>
+<tr class="memdesc:a5596bbaa052751db2c39dd48dc2718c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the vector of pointers contains nullptr pointers.  <br /></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="ae19e071eeee9a047adc258086fe97a18" name="ae19e071eeee9a047adc258086fe97a18"></a>
@@ -405,7 +405,7 @@ alignment".  <br /></td></tr>
 </div><div class="memdoc">
 
 <p>AlignUtteranceWapper is a wrapper for alignment code used in training, that is called from many different binaries, e.g. </p>
-<p>gmm-align, gmm-align-compiled, sgmm-align, etc. The writers for alignments and words will only be written to if they are open. The num_done, num_error, num_retried, tot_like and frame_count pointers will (if non-NULL) be incremented or added to, not set, by this function. </p>
+<p>gmm-align, gmm-align-compiled, sgmm-align, etc. The writers for alignments and words will only be written to if they are open. The num_done, num_error, num_retried, tot_like and frame_count pointers will (if non-nullptr) be incremented or added to, not set, by this function. </p>
 
 </div>
 </div>
@@ -426,12 +426,12 @@ template&lt;class A&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Returns true if the vector of pointers contains NULL pointers. </p>
+<p>Returns true if the vector of pointers contains nullptr pointers. </p>
 
 </div>
 </div>
-<a id="afc5080997ac07558d175e052e6a7e843" name="afc5080997ac07558d175e052e6a7e843"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc5080997ac07558d175e052e6a7e843">&#9670;&#160;</a></span>DecodeUtteranceLatticeFaster()</h2>
+<a id="aa6d9bd84e7447b0624190e55fef197a2" name="aa6d9bd84e7447b0624190e55fef197a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6d9bd84e7447b0624190e55fef197a2">&#9670;&#160;</a></span>DecodeUtteranceLatticeFaster()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -486,7 +486,7 @@ template&lt;typename FST&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">fst::Lattice *</td>          <td class="paramname"><span class="paramname"><em>lat_out</em></span><span class="paramdefsep"> = </span><span class="paramdefval">NULL</span>&#160;)</td>
+          <td class="paramtype">fst::Lattice *</td>          <td class="paramname"><span class="paramname"><em>lat_out</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -512,8 +512,8 @@ template&lt;typename FST&gt; </div>
 
 </div>
 </div>
-<a id="af3844aeca0af66d24008c5fb3e91b78c" name="af3844aeca0af66d24008c5fb3e91b78c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3844aeca0af66d24008c5fb3e91b78c">&#9670;&#160;</a></span>DecodeUtteranceLatticeSimple()</h2>
+<a id="a614206b8fe407e64ee471243a9476f69" name="a614206b8fe407e64ee471243a9476f69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a614206b8fe407e64ee471243a9476f69">&#9670;&#160;</a></span>DecodeUtteranceLatticeSimple()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -566,13 +566,13 @@ template&lt;typename FST&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">fst::Lattice *</td>          <td class="paramname"><span class="paramname"><em>lat_out</em></span><span class="paramdefsep"> = </span><span class="paramdefval">NULL</span>&#160;)</td>
+          <td class="paramtype">fst::Lattice *</td>          <td class="paramname"><span class="paramname"><em>lat_out</em></span><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Decode one utterance with <a class="el" href="classkaldi__decoder_1_1LatticeSimpleDecoder.html" title="Simplest possible decoder, included largely for didactic purposes and as a means to debug more highly...">LatticeSimpleDecoder</a>. </p>
-<p>Produces the outputs kaldi's gmm-latgen-simple writes (adapted from <a href="https://github.com/kaldi-asr/kaldi/blob/master/src/decoder/decoder-wrappers.cc">src/decoder/decoder-wrappers.cc</a>: the table writers are replaced by out-params). As in kaldi, <span class="tt">alignments</span>/<span class="tt">words</span> come from the DECODE-TIME best path (decoder.GetBestPath), and <span class="tt">*like_ptr</span> gets its total cost. If <span class="tt">lat_out</span> is non-NULL it receives the raw lattice exactly as kaldi writes it: acoustic costs divided by <span class="tt">acoustic_scale</span> (skipped when <span class="tt">acoustic_scale == 0</span>).</p>
+<p>Produces the outputs kaldi's gmm-latgen-simple writes (adapted from <a href="https://github.com/kaldi-asr/kaldi/blob/master/src/decoder/decoder-wrappers.cc">src/decoder/decoder-wrappers.cc</a>: the table writers are replaced by out-params). As in kaldi, <span class="tt">alignments</span>/<span class="tt">words</span> come from the DECODE-TIME best path (decoder.GetBestPath), and <span class="tt">*like_ptr</span> gets its total cost. If <span class="tt">lat_out</span> is non-nullptr it receives the raw lattice exactly as kaldi writes it: acoustic costs divided by <span class="tt">acoustic_scale</span> (skipped when <span class="tt">acoustic_scale == 0</span>).</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">decoder</td><td>Decoded (or to-be-decoded) decoder. </td></tr>
@@ -609,7 +609,7 @@ template&lt;class A&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Deletes any non-NULL pointers in the vector v, and sets the corresponding entries of v to NULL. </p>
+<p>Deletes any non-nullptr pointers in the vector v, and sets the corresponding entries of v to nullptr. </p>
 
 </div>
 </div>
@@ -734,7 +734,7 @@ template&lt;typename T&gt; </div>
 <div class="line">  <a class="code hl_function" href="#aaef55961903aecc3bd5a5961e0ab18d5">kaldi_decoder::LatticeBestPath</a>(lat, lmwt, 1.0f, &amp;ali, &amp;words, &amp;like);</div>
 <div class="line">}</div>
 <div class="ttc" id="anamespacekaldi__decoder_html_aaef55961903aecc3bd5a5961e0ab18d5"><div class="ttname"><a href="#aaef55961903aecc3bd5a5961e0ab18d5">kaldi_decoder::LatticeBestPath</a></div><div class="ttdeci">bool LatticeBestPath(const fst::Lattice &amp;lat, float lm_scale, float acoustic_scale, std::vector&lt; int32_t &gt; *alignments, std::vector&lt; int32_t &gt; *words, double *like_ptr)</div><div class="ttdoc">1-best of a lattice under lm/acoustic scaling.</div></div>
-</div><!-- fragment --> <dl class="section see"><dt>See also</dt><dd><a class="el" href="#afc5080997ac07558d175e052e6a7e843" title="Decode one utterance with LatticeFasterDecoderTpl.">DecodeUtteranceLatticeFaster</a> </dd></dl>
+</div><!-- fragment --> <dl class="section see"><dt>See also</dt><dd><a class="el" href="#aa6d9bd84e7447b0624190e55fef197a2" title="Decode one utterance with LatticeFasterDecoderTpl.">DecodeUtteranceLatticeFaster</a> </dd></dl>
 
 </div>
 </div>
