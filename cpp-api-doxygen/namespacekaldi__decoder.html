@@ -136,8 +136,6 @@ Classes</h2></td></tr>
 <tr class="memitem:LatticeSimpleDecoderConfig" id="r_LatticeSimpleDecoderConfig"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkaldi__decoder_1_1LatticeSimpleDecoderConfig.html">LatticeSimpleDecoderConfig</a></td></tr>
 <tr class="memitem:LatticeSimpleDecoder" id="r_LatticeSimpleDecoder"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkaldi__decoder_1_1LatticeSimpleDecoder.html">LatticeSimpleDecoder</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simplest possible decoder, included largely for didactic purposes and as a means to debug more highly optimized decoders.  <a href="classkaldi__decoder_1_1LatticeSimpleDecoder.html#details">More...</a><br /></td></tr>
-<tr class="memitem:Logger" id="r_Logger"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkaldi__decoder_1_1Logger.html">Logger</a></td></tr>
-<tr class="memitem:Voidifier" id="r_Voidifier"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkaldi__decoder_1_1Voidifier.html">Voidifier</a></td></tr>
 <tr class="memitem:SimpleDecoder" id="r_SimpleDecoder"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkaldi__decoder_1_1SimpleDecoder.html">SimpleDecoder</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simplest possible decoder, included largely for didactic purposes and as a means to debug more highly optimized decoders.  <a href="classkaldi__decoder_1_1SimpleDecoder.html#details">More...</a><br /></td></tr>
 <tr class="memitem:PairHasher" id="r_PairHasher"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkaldi__decoder_1_1PairHasher.html">PairHasher</a></td></tr>
@@ -156,13 +154,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a804bb7cb81a1ab3a2f300bc90880cb27" id="r_a804bb7cb81a1ab3a2f300bc90880cb27"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a804bb7cb81a1ab3a2f300bc90880cb27">FloatRowVector</a> = Eigen::Matrix&lt;float, 1, Eigen::Dynamic&gt;</td></tr>
 <tr class="memitem:ad8ea91495afb94c945c274bad6895d57" id="r_ad8ea91495afb94c945c274bad6895d57"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8ea91495afb94c945c274bad6895d57">DoubleRowVector</a> = Eigen::Matrix&lt;double, 1, Eigen::Dynamic&gt;</td></tr>
 <tr class="memitem:a1a3c13682a6243662df58359bbcab2fb" id="r_a1a3c13682a6243662df58359bbcab2fb"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classkaldi__decoder_1_1LatticeFasterDecoderTpl.html">LatticeFasterDecoderTpl</a>&lt; fst::StdFst, <a class="el" href="structkaldi__decoder_1_1decoder_1_1StdToken.html">decoder::StdToken</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a3c13682a6243662df58359bbcab2fb">LatticeFasterDecoder</a></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a18c2ff97a855fa88b5f75dc9fa3da6b6" id="r_a18c2ff97a855fa88b5f75dc9fa3da6b6"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a18c2ff97a855fa88b5f75dc9fa3da6b6">LogLevel</a> { <a class="el" href="#a18c2ff97a855fa88b5f75dc9fa3da6b6a176a473e63c17ccdac91640c67f149bf">kInfo</a> = 0
-, <a class="el" href="#a18c2ff97a855fa88b5f75dc9fa3da6b6a61a920eb4a24199ec6a36dd90f2a30b7">kWarn</a> = 1
-, <a class="el" href="#a18c2ff97a855fa88b5f75dc9fa3da6b6ae3587c730cc1aa530fa4ddc9c4204e97">kError</a> = 2
- }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -303,34 +294,6 @@ alignment".  <br /></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
-<a id="a18c2ff97a855fa88b5f75dc9fa3da6b6" name="a18c2ff97a855fa88b5f75dc9fa3da6b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18c2ff97a855fa88b5f75dc9fa3da6b6">&#9670;&#160;</a></span>LogLevel</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="#a18c2ff97a855fa88b5f75dc9fa3da6b6">kaldi_decoder::LogLevel</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a18c2ff97a855fa88b5f75dc9fa3da6b6a176a473e63c17ccdac91640c67f149bf" name="a18c2ff97a855fa88b5f75dc9fa3da6b6a176a473e63c17ccdac91640c67f149bf"></a>kInfo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a18c2ff97a855fa88b5f75dc9fa3da6b6a61a920eb4a24199ec6a36dd90f2a30b7" name="a18c2ff97a855fa88b5f75dc9fa3da6b6a61a920eb4a24199ec6a36dd90f2a30b7"></a>kWarn&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a18c2ff97a855fa88b5f75dc9fa3da6b6ae3587c730cc1aa530fa4ddc9c4204e97" name="a18c2ff97a855fa88b5f75dc9fa3da6b6ae3587c730cc1aa530fa4ddc9c4204e97"></a>kError&#160;</td><td class="fielddoc"></td></tr>
-</table>
 
 </div>
 </div>

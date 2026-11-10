@@ -8,7 +8,6 @@ var searchData=
   ['_7ehashlist_5',['~HashList',['../classkaldi__decoder_1_1HashList.html#a1fadb91da5d6286d3724855874382933',1,'kaldi_decoder::HashList']]],
   ['_7elatticefasterdecodertpl_6',['~LatticeFasterDecoderTpl',['../classkaldi__decoder_1_1LatticeFasterDecoderTpl.html#af134f1486215b8ff0a08c2951ab27c11',1,'kaldi_decoder::LatticeFasterDecoderTpl']]],
   ['_7elatticesimpledecoder_7',['~LatticeSimpleDecoder',['../classkaldi__decoder_1_1LatticeSimpleDecoder.html#ad75d45a18a601c3c82c52a1c2d07494f',1,'kaldi_decoder::LatticeSimpleDecoder']]],
-  ['_7elogger_8',['~Logger',['../classkaldi__decoder_1_1Logger.html#aab77ef2554cbd9631898658635c2c8b1',1,'kaldi_decoder::Logger']]],
-  ['_7esimpledecoder_9',['~SimpleDecoder',['../classkaldi__decoder_1_1SimpleDecoder.html#aed9e0b69e20da6a522651afb4f4462ed',1,'kaldi_decoder::SimpleDecoder']]],
-  ['_7etransitioninformation_10',['~TransitionInformation',['../classkaldi__decoder_1_1TransitionInformation.html#a6f4fc6a3c446f49a11977ca37e3a0fc1',1,'kaldi_decoder::TransitionInformation']]]
+  ['_7esimpledecoder_8',['~SimpleDecoder',['../classkaldi__decoder_1_1SimpleDecoder.html#aed9e0b69e20da6a522651afb4f4462ed',1,'kaldi_decoder::SimpleDecoder']]],
+  ['_7etransitioninformation_9',['~TransitionInformation',['../classkaldi__decoder_1_1TransitionInformation.html#a6f4fc6a3c446f49a11977ca37e3a0fc1',1,'kaldi_decoder::TransitionInformation']]]
 ];

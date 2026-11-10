@@ -17,8 +17,6 @@ var namespacekaldi__decoder =
     [ "LatticeFasterDecoderTpl", "classkaldi__decoder_1_1LatticeFasterDecoderTpl.html", "classkaldi__decoder_1_1LatticeFasterDecoderTpl" ],
     [ "LatticeSimpleDecoderConfig", "structkaldi__decoder_1_1LatticeSimpleDecoderConfig.html", "structkaldi__decoder_1_1LatticeSimpleDecoderConfig" ],
     [ "LatticeSimpleDecoder", "classkaldi__decoder_1_1LatticeSimpleDecoder.html", "classkaldi__decoder_1_1LatticeSimpleDecoder" ],
-    [ "Logger", "classkaldi__decoder_1_1Logger.html", "classkaldi__decoder_1_1Logger" ],
-    [ "Voidifier", "classkaldi__decoder_1_1Voidifier.html", "classkaldi__decoder_1_1Voidifier" ],
     [ "SimpleDecoder", "classkaldi__decoder_1_1SimpleDecoder.html", "classkaldi__decoder_1_1SimpleDecoder" ],
     [ "PairHasher", "structkaldi__decoder_1_1PairHasher.html", "structkaldi__decoder_1_1PairHasher" ],
     [ "VectorHasher", "structkaldi__decoder_1_1VectorHasher.html", "structkaldi__decoder_1_1VectorHasher" ],
@@ -30,11 +28,6 @@ var namespacekaldi__decoder =
     [ "FloatRowVector", "namespacekaldi__decoder.html#a804bb7cb81a1ab3a2f300bc90880cb27", null ],
     [ "FloatVector", "namespacekaldi__decoder.html#a61d491e85fa492207ca19a7b2d7a58b5", null ],
     [ "LatticeFasterDecoder", "namespacekaldi__decoder.html#a1a3c13682a6243662df58359bbcab2fb", null ],
-    [ "LogLevel", "namespacekaldi__decoder.html#a18c2ff97a855fa88b5f75dc9fa3da6b6", [
-      [ "kInfo", "namespacekaldi__decoder.html#a18c2ff97a855fa88b5f75dc9fa3da6b6a176a473e63c17ccdac91640c67f149bf", null ],
-      [ "kWarn", "namespacekaldi__decoder.html#a18c2ff97a855fa88b5f75dc9fa3da6b6a61a920eb4a24199ec6a36dd90f2a30b7", null ],
-      [ "kError", "namespacekaldi__decoder.html#a18c2ff97a855fa88b5f75dc9fa3da6b6ae3587c730cc1aa530fa4ddc9c4204e97", null ]
-    ] ],
     [ "AlignUtteranceWrapper", "namespacekaldi__decoder.html#a5db248eeb8380b6c89d13993683dd6c8", null ],
     [ "ContainsNullPointers", "namespacekaldi__decoder.html#a5596bbaa052751db2c39dd48dc2718c5", null ],
     [ "DecodeUtteranceLatticeFaster", "namespacekaldi__decoder.html#aa6d9bd84e7447b0624190e55fef197a2", null ],

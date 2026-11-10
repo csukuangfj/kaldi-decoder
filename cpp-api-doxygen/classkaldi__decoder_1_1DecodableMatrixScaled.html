@@ -128,6 +128,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9587d03e352a829bbfac179e83192665"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acoustic log-likelihood of one label at one frame.  <br /></td></tr>
 <tr class="memitem:a7fcd5dd0c8eb0bb0ce9427eabc3589cf" id="r_a7fcd5dd0c8eb0bb0ce9427eabc3589cf"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fcd5dd0c8eb0bb0ce9427eabc3589cf">NumIndices</a> () const override</td></tr>
 <tr class="memdesc:a7fcd5dd0c8eb0bb0ce9427eabc3589cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of labels (acoustic states) in the model.  <br /></td></tr>
+<tr class="memitem:a97bc063d7499ca62c4c32d6a740949e1" id="r_a97bc063d7499ca62c4c32d6a740949e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97bc063d7499ca62c4c32d6a740949e1">DecodableMatrixScaled</a> (const DecodableMatrixScaled &amp;)=delete</td></tr>
+<tr class="memitem:a557decd0e57c7939806bf43a92c197e2" id="r_a557decd0e57c7939806bf43a92c197e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a7fe66a8b40ba52a37f21a24159b0358a">DecodableMatrixScaled</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a557decd0e57c7939806bf43a92c197e2">operator=</a> (const <a class="el" href="#a7fe66a8b40ba52a37f21a24159b0358a">DecodableMatrixScaled</a> &amp;)=delete</td></tr>
 <tr class="inherit_header pub_methods_classkaldi__decoder_1_1DecodableInterface"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classkaldi__decoder_1_1DecodableInterface')"><span class="dynarrow"><span class="arrowhead closed"></span></span>Public Member Functions inherited from <a class="el" href="classkaldi__decoder_1_1DecodableInterface.html">kaldi_decoder::DecodableInterface</a></td></tr>
 <tr class="memitem:a681fa0b66ae1a991693e0c8143e66359 inherit pub_methods_classkaldi__decoder_1_1DecodableInterface" id="r_a681fa0b66ae1a991693e0c8143e66359"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkaldi__decoder_1_1DecodableInterface.html#a681fa0b66ae1a991693e0c8143e66359">~DecodableInterface</a> ()=default</td></tr>
 </table>
@@ -136,7 +138,7 @@ Public Member Functions</h2></td></tr>
 <p>Indices are the matrix columns directly (one-based): the score of index <span class="tt">i</span> at frame <span class="tt">t</span> is <span class="tt">scale * likes(t, i - 1)</span>. Use this when the caller already has per-index (not per-pdf) scores, e.g. for CTC-like graphs. </p>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7fe66a8b40ba52a37f21a24159b0358a" name="a7fe66a8b40ba52a37f21a24159b0358a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fe66a8b40ba52a37f21a24159b0358a">&#9670;&#160;</a></span>DecodableMatrixScaled()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fe66a8b40ba52a37f21a24159b0358a">&#9670;&#160;</a></span>DecodableMatrixScaled() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,6 +160,31 @@ Public Member Functions</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a97bc063d7499ca62c4c32d6a740949e1" name="a97bc063d7499ca62c4c32d6a740949e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97bc063d7499ca62c4c32d6a740949e1">&#9670;&#160;</a></span>DecodableMatrixScaled() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">kaldi_decoder::DecodableMatrixScaled::DecodableMatrixScaled </td>
+          <td>(</td>
+          <td class="paramtype">const DecodableMatrixScaled &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -303,6 +330,31 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>The number of valid labels. </dd></dl>
 
 <p>Implements <a class="el" href="classkaldi__decoder_1_1DecodableInterface.html#a829ae07f579778c3af51d2aa9d3bc8fa">kaldi_decoder::DecodableInterface</a>.</p>
+
+</div>
+</div>
+<a id="a557decd0e57c7939806bf43a92c197e2" name="a557decd0e57c7939806bf43a92c197e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a557decd0e57c7939806bf43a92c197e2">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a7fe66a8b40ba52a37f21a24159b0358a">DecodableMatrixScaled</a> &amp; kaldi_decoder::DecodableMatrixScaled::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7fe66a8b40ba52a37f21a24159b0358a">DecodableMatrixScaled</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel delete">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

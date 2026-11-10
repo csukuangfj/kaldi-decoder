@@ -12,7 +12,7 @@ var dir_e6b6a1ae879586c24e2ffb064ad1b3a3 =
     [ "kaldi-math.h", "kaldi-math_8h.html", "kaldi-math_8h" ],
     [ "lattice-faster-decoder.h", "lattice-faster-decoder_8h.html", "lattice-faster-decoder_8h" ],
     [ "lattice-simple-decoder.h", "lattice-simple-decoder_8h.html", "lattice-simple-decoder_8h" ],
-    [ "log.h", "log_8h.html", "log_8h" ],
+    [ "macros.h", "macros_8h.html", "macros_8h" ],
     [ "simple-decoder.h", "simple-decoder_8h.html", "simple-decoder_8h" ],
     [ "stl-utils.h", "stl-utils_8h.html", "stl-utils_8h" ],
     [ "transition-information.h", "transition-information_8h.html", "transition-information_8h" ]

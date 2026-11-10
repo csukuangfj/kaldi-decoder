@@ -22,8 +22,6 @@ var annotated_dup =
       [ "LatticeFasterDecoderTpl", "classkaldi__decoder_1_1LatticeFasterDecoderTpl.html", "classkaldi__decoder_1_1LatticeFasterDecoderTpl" ],
       [ "LatticeSimpleDecoderConfig", "structkaldi__decoder_1_1LatticeSimpleDecoderConfig.html", "structkaldi__decoder_1_1LatticeSimpleDecoderConfig" ],
       [ "LatticeSimpleDecoder", "classkaldi__decoder_1_1LatticeSimpleDecoder.html", "classkaldi__decoder_1_1LatticeSimpleDecoder" ],
-      [ "Logger", "classkaldi__decoder_1_1Logger.html", "classkaldi__decoder_1_1Logger" ],
-      [ "Voidifier", "classkaldi__decoder_1_1Voidifier.html", "classkaldi__decoder_1_1Voidifier" ],
       [ "SimpleDecoder", "classkaldi__decoder_1_1SimpleDecoder.html", "classkaldi__decoder_1_1SimpleDecoder" ],
       [ "PairHasher", "structkaldi__decoder_1_1PairHasher.html", "structkaldi__decoder_1_1PairHasher" ],
       [ "VectorHasher", "structkaldi__decoder_1_1VectorHasher.html", "structkaldi__decoder_1_1VectorHasher" ],

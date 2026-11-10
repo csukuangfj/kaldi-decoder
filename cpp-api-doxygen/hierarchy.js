@@ -20,13 +20,11 @@ var hierarchy =
     [ "kaldi_decoder::LatticeFasterDecoderTpl&lt; FST, Token &gt;", "classkaldi__decoder_1_1LatticeFasterDecoderTpl.html", null ],
     [ "kaldi_decoder::LatticeSimpleDecoder", "classkaldi__decoder_1_1LatticeSimpleDecoder.html", null ],
     [ "kaldi_decoder::LatticeSimpleDecoderConfig", "structkaldi__decoder_1_1LatticeSimpleDecoderConfig.html", null ],
-    [ "kaldi_decoder::Logger", "classkaldi__decoder_1_1Logger.html", null ],
     [ "kaldi_decoder::PairHasher&lt; Int1, Int2 &gt;", "structkaldi__decoder_1_1PairHasher.html", null ],
     [ "kaldi_decoder::SimpleDecoder", "classkaldi__decoder_1_1SimpleDecoder.html", null ],
     [ "kaldi_decoder::decoder::StdToken", "structkaldi__decoder_1_1decoder_1_1StdToken.html", null ],
     [ "kaldi_decoder::FasterDecoder::Token", "classkaldi__decoder_1_1FasterDecoder_1_1Token.html", null ],
     [ "kaldi_decoder::LatticeFasterDecoderTpl&lt; FST, Token &gt;::TokenList", "structkaldi__decoder_1_1LatticeFasterDecoderTpl_1_1TokenList.html", null ],
     [ "kaldi_decoder::TransitionInformation", "classkaldi__decoder_1_1TransitionInformation.html", null ],
-    [ "kaldi_decoder::VectorHasher&lt; Int &gt;", "structkaldi__decoder_1_1VectorHasher.html", null ],
-    [ "kaldi_decoder::Voidifier", "classkaldi__decoder_1_1Voidifier.html", null ]
+    [ "kaldi_decoder::VectorHasher&lt; Int &gt;", "structkaldi__decoder_1_1VectorHasher.html", null ]
 ];
